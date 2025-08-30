@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ترف - Taraf | متجر إلكتروني راقي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href__="style.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <h1 class="logo-text">ترف</h1>
+                    <span class="logo-subtitle">Taraf</span>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active">الرئيسية</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#products" class="nav-link">المنتجات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">من نحن</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">تواصل معنا</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Header Actions -->
+                <div class="header-actions">
+                    <div class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="cart-btn">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <a href="https://wa.me/+966532447642" class="whatsapp-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>واتساب</span>
+                    </a>
+                    <div class="menu-toggle" id="menuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-image" style="background-image: url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200&q=80')"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-decorations">
+            <div class="decoration decoration-1"></div>
+            <div class="decoration decoration-2"></div>
+            <div class="decoration decoration-3"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span>مجموعة حصرية ومميزة</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="hero-main-title">ترف</span>
+                    <span class="hero-subtitle">Taraf</span>
+                </h1>
+                
+                <p class="hero-description">
+                    اكتشفي عالماً من الأناقة والجمال مع مجموعتنا المنتقاة بعناية من أجمل القطع العصرية
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">
+                        <span>تسوقي الآن</span>
+                        <i class="fas fa-arrow-left"></i>
+                    </a>
+                    <a href="#about" class="btn btn-outline">
+                        <span>اكتشفي المزيد</span>
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+                
+                <!-- <div class="hero-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>عميلة سعيدة</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100+</h3>
+                        <p>منتج حصري</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5⭐</h3>
+                        <p>تقييم العملاء</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">تسوقي حسب الفئة</h2>
+                <p class="section-subtitle">اختاري من مجموعتنا المنوعة</p>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&q=80" alt="مجوهرات">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <h3>مجوهرات</h3>
+                        <p>قطع مجوهرات فاخرة</p>
+                        <span class="category-count">15 منتج</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://media.istockphoto.com/id/698685396/photo/women-luxury-purses.jpg?s=612x612&w=0&k=20&c=-JW5ogKzYqgH81625gEy40CVC0rahq1knQGbelj4Uo8=" alt="حقائب">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <h3>حقائب</h3>
+                        <p>حقائب عصرية وأنيقة</p>
+                        <span class="category-count">12 منتج</span>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <img src="https://media.istockphoto.com/id/166109936/photo/set-of-colorful-scarves-in-wooden-box.jpg?s=612x612&w=0&k=20&c=xGPihlvrOar3hGPgn4HDGBZIzaduj4REFrEmpRb4zDQ=" alt="أوشحة">
+                        <div class="category-overlay"></div>
+                    </div>
+                    <div class="category-content">
+                        <h3>أوشحة</h3>
+                        <p>أوشحة حرير فاخرة</p>
+                        <span class="category-count">8 منتج</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">منتجات مميزة</h2>
+                <p class="section-subtitle">أحدث وأجمل المنتجات في مجموعتنا</p>
+            </div>
+            
+            <div class="products-filter">
+                <button class="filter-btn active" data-filter="all">جميع المنتجات</button>
+                <button class="filter-btn" data-filter="jewelry">مجوهرات</button>
+                <button class="filter-btn" data-filter="bags">حقائب</button>
+                <button class="filter-btn" data-filter="accessories">إكسسوارات</button>
+            </div>
+            
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here by JavaScript -->
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>جاري تحميل المنتجات...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-badge">من نحن</div>
+                    <h2 class="about-title">قصة ترف</h2>
+                    <p class="about-description">
+                        حلمي هو أن أمتلك متجري الخاص وأشارك الناس الأشياء التي أحبها. أريد أن يكون متجري مكاناً يملؤه الجمال والسعادة، وأختار كل قطعة بعناية لأجعل كل تجربة مميزة وفريدة.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-gem"></i>
+                            <div>
+                                <h4>جودة عالية</h4>
+                                <p>منتجات مختارة بعناية فائقة</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <div>
+                                <h4>توصيل سريع</h4>
+                                <p>نصلك في أسرع وقت ممكن داخل منطقة القصيم، وبقية المناطق قريباً إن شاء الله</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>خدمة مميزة</h4>
+                                <p>نهتم براحتك ورضاك</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600&q=80" alt="من نحن">
+                    <div class="about-image-decoration"></div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="font-size: 2rem; color: white;">تواصلي معنا</h2>
+                <p class="section-subtitle">نحن هنا للإجابة على جميع استفساراتك</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>واتساب</h3>
+                        <p>تواصلي معنا عبر واتساب للاستفسار السريع</p>
+                        <a href="https://wa.me/+966532447642" target="_blank" class="contact-btn">
+                            ابدئي المحادثة
+                        </a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h3>انستغرام</h3>
+                        <p>تابعينا لآخر المنتجات والعروض</p>
+                        <a href="https://instagram.com/taraf" target="_blank" class="contact-btn">
+                            زوري حسابنا
+                        </a>
+                    </div>
+                    
+                    <!-- <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>البريد الإلكتروني</h3>
+                        <p>راسلينا للاستفسارات المفصلة</p>
+                        <a href="mailto:hello@taraf.com" class="contact-btn">
+                            أرسلي رسالة
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <h2 class="footer-logo">ترف</h2>
+                        <p class="footer-tagline">Taraf</p>
+                        <p class="footer-description">
+                            متجرك المفضل للأناقة والجمال. نقدم لك أجمل القطع المنتقاة بعناية فائقة.
+                        </p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                            <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                            <a href="#"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>روابط سريعة</h4>
+                            <ul>
+                                <li><a href="#home">الرئيسية</a></li>
+                                <li><a href="#products">المنتجات</a></li>
+                                <li><a href="#about">من نحن</a></li>
+                                <li><a href="#contact">تواصل معنا</a></li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-column">
+                            <h4>الفئات</h4>
+                            <ul>
+                                <li><a href="#">مجوهرات</a></li>
+                                <li><a href="#">حقائب</a></li>
+                                <li><a href="#">أوشحة</a></li>
+                                <li><a href="#">إكسسوارات</a></li>
+                            </ul>
+                        </div>
+                        
+                        <!-- <div class="footer-column">
+                            <h4>خدمة العملاء</h4>
+                            <ul>
+                                <li><a href="#">الأسئلة الشائعة</a></li>
+                                <li><a href="#">سياسة الإرجاع</a></li>
+                                <li><a href="#">طرق الدفع</a></li>
+                                <li><a href="#">التوصيل والشحن</a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2024 ترف - Taraf. جميع الحقوق محفوظة. صُنع بـ 💜</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/+966532447642" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Back to Top -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
