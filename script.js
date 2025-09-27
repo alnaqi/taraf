@@ -57,7 +57,7 @@ const products = [
 ];
 
 // Configuration
-const WHATSAPP_NUMBER = "1234567890"; // Replace with your WhatsApp number
+const WHATSAPP_NUMBER = "+966532447642";
 
 // DOM Elements
 const header = document.getElementById('header');
